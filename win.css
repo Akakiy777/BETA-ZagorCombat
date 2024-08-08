@@ -1,0 +1,59 @@
+.block{
+    height: 70vh;
+    margin: 1vh;
+    box-shadow: black 0 0 3vh;
+    text-align: center;
+    background-color: rgba(206, 127, 8, 0.808);
+    border-radius: 2vh;
+}
+.item{
+    position: relative;
+    top: 10vh;
+    color: blue;
+}
+label{
+    font-size: 300%;
+    font-weight: bolder;
+}
+#submit{
+    width: 60%;
+    height: 10vh;
+    margin: 8vh;
+    border: none;
+    font-weight: bolder;
+    font-size: 400%;
+    border-radius: 1vh;
+    box-shadow: black 0 0 2vh;
+    background-image: url('Stone.png');
+    color: chocolate;
+    text-align: center;
+}
+body{
+    background-image: url('White.png');
+}
+.stats{
+    position: relative;
+    top: 5vh;
+}
+.stats>span{
+    font-size: 300%;
+    font-weight: bolder;
+    color: blue;
+}
+.stats>button{
+    margin: 1vh;
+    width: 30vh;
+    height: 8vh;
+    box-shadow: black 0 0 5vh;
+    border-radius: 2vh;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.White{
+    background: linear-gradient(rgb(217, 255, 0),rgb(255, 238, 0));
+    color: chocolate;
+}
+.Black{
+    background: linear-gradient(rgb(0, 0, 0),rgb(10, 32, 131));
+    color: chocolate;
+}
