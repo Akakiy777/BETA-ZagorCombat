@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>ZagorCombat</title>
+        <link rel="shortcut icon" href="Hamster.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <div class="user">
+                <span class="logo" id="usercart">ZagorCombat</span>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="image/logo1.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="image/logo2.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="image/logo3.png"></a>
+            </div>
+            <div class="main">
+                <div class="block1 item">
+                    <span id="balance">Баланс: 50</span>
+                    <button class="hamster"></button>
+                    <script class="bag"></script>
+                </div>
+                <div class="block2 item">
+                    <span id="taber">>>>1<<<</span>
+                    <div class="cart" id="cart1">
+                        <span>Цена: 10</span><span>Цена: 20</span><br><button id="b1">+1 в таб</button><button id="b2">+2 в таб</button>
+                    </div>
+                    <div class="cart" id="cart2">
+                        <span>Цена: 50</span><span>Цена: 100</span><br><button id="b5">+5 в таб</button><button id="b10">+10 в таб</button>
+                    </div>
+                    <div class="cart" id="cart3">
+                        <span>Цена: 200</span><span>Цена: 500</span><br><button id="b20">+20 в таб</button><button id="b50">+50 в таб</button>
+                    </div>
+                </div>
+                <div class="block3 item">
+                    <span>Тема:</span>
+                    <div class="ThemeCon">
+                        <button id="White">Светлая</button>
+                        <button id="Black">Тёмная</button>
+                    </div>
+                    <div class="get">
+                        <span>Промокод</span><br>
+                        <input type="text" placeholder="<код>" id="input1"><button class="promoNBT">✓</button>
+                    </div>
+                    <div class="get">
+                        <span>Накрутка</span><br>
+                        <input type="text" placeholder="<деньги таб>" id="input2"><button class="savesNBT">✓</button>
+                    </div>
+                    <div class="get">
+                        <span>Ставка выгода Х2</span><br>
+                        <input type="number" placeholder="<сумма>" id="input3"><button class="betNBT">✓</button>
+                    </div>
+                </div>
+                <div class="block4 item">
+                    <span>Сохранение</span>
+                    <div class="userGET">
+                        <input type="text" id="name" placeholder="<Имя сохранение>">
+                        <div class="input__wrapper">
+                            <input name="file" type="file" id="input__file" class="input input__file" multiple>
+                            <label for="input__file" class="input__file-button">
+                               <span class="input__file-icon-wrapper"><img class="input__file-icon" src="image/icon4.png" alt="Выбрать файл" width="25"></span>
+                               <span class="input__file-button-text">Выберите файл</span>
+                            </label>
+                         </div>
+                        <div class="submits">
+                            <button id="saves">Загрузить</button>
+                            <button id="download">Скачать</button>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <span>Если у вас возникли <br> проблемы то обратитесь</span>
+                        <span>к нам в подержку <br> и мы решим ваш вопрос!</span>
+                        <button id="readINFO" onclick="location.href='https://www.youtube.com/'">Поддержка</button>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <button id="lab1"><img src="image/icon1.png" class="icons"></button>
+                <button id="lab2"><img src="image/icon2.png" class="icons"></button>
+                <button id="lab3"><img src="image/icon3.png" class="icons"></button>
+                <button id="lab4"><img src="image/icon4.png" class="icons"></button>
+            </div>
+        </div>
+        <style id="edit">
+            .block1{order: 1;}.block2{order: 2;}.block3{order: 2;}.block4{order: 2;}#lab1{box-shadow: 0 0 3px orange;}
+        </style>
+        <style id="backset">
+            body{background-image: url('Black.png');}#Black{box-shadow: 0 0 3px orange;}
+        </style>
+    </body>
+</html>
